@@ -2,9 +2,9 @@
       * VEDENQ  - VEHICLE EXCISE DUTY RATE ENQUIRY (SCREEN)            *
       *                                                                *
       * OPERATOR KEYS ONE VEHICLE, PRESSES ENTER, AND GETS THE ANNUAL  *
-      * RATE AND THE RULE APPLIED. CALLS VEDCALC FOR THE RULES, WHICH  *
-      * ARE SET OUT IN DOCS/RULES.MD. THE 80 BY 24 SCREEN IS CENTRED   *
-      * IN WHATEVER SIZE OF TERMINAL WINDOW IT STARTS IN.              *
+      * RATE AND THE RULE APPLIED. CALLS VEDCALC FOR THE RULES.        *
+      * THE 80 BY 24 SCREEN IS CENTRED IN WHATEVER SIZE OF TERMINAL    *
+      * WINDOW IT STARTS IN.                                           *
       *                                                                *
       * UK GOVERNMENT DEMO SERVICE. FICTIONAL. RATES ARE INVENTED.     *
       *================================================================*

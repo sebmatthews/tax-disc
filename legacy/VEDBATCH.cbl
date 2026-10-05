@@ -2,8 +2,8 @@
       * VEDBATCH - VEHICLE EXCISE DUTY BATCH RATING RUN                *
       *                                                                *
       * READS ONE VEHICLE PER LINE (35 CHARACTERS), CALLS VEDCALC,     *
-      * WRITES ONE RESULT PER LINE (17 CHARACTERS). RECORD LAYOUTS     *
-      * ARE SET OUT IN DOCS/RULES.MD.                                  *
+      * WRITES ONE RESULT PER LINE (17 CHARACTERS). RECORD LAYOUTS:    *
+      * SEE WS-VEHICLE AND WS-OUT-LINE BELOW.                          *
       *                                                                *
       * USAGE: VEDBATCH INPUT-FILE OUTPUT-FILE                         *
       *                                                                *

@@ -3,7 +3,7 @@
       *                                                                *
       * CALLED BY VEDENQ (SCREEN) AND VEDBATCH (BATCH). GIVEN ONE      *
       * VEHICLE, RETURNS THE ANNUAL RATE IN WHOLE POUNDS AND A RULE    *
-      * CODE. THE RULES ARE SET OUT IN DOCS/RULES.MD.                  *
+      * CODE. RATES PER TARIFF TABLE, AMENDED 04/2017.                 *
       *                                                                *
       * UK GOVERNMENT DEMO SERVICE. FICTIONAL. RATES ARE INVENTED.     *
       *                                                                *
