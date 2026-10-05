@@ -1,0 +1,16 @@
+# Compiled COBOL
+spike/vedenq
+*.o
+*.so
+*.dylib
+
+# Node
+node_modules/
+dist/
+
+# Local only, never committed
+.github-token
+CLAUDE.md
+
+# macOS
+.DS_Store
