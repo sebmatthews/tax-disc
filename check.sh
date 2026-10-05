@@ -6,9 +6,8 @@
 
 cd "$(dirname "$0")" || exit 1
 
-if [ ! -x legacy/vedbatch ]; then
-  sh legacy/build.sh >/dev/null || { echo "Could not build the old system. Is GnuCOBOL installed? (brew install gnucobol)"; exit 1; }
-fi
+# Always rebuild, so the check runs the COBOL as it is now, not an old build.
+sh legacy/build.sh >/dev/null 2>&1 || { echo "Could not build the old system. Is GnuCOBOL installed? (brew install gnucobol)"; exit 1; }
 
 if [ ! -f modern/batch.ts ]; then
   echo "The new system does not exist yet: there is no modern/batch.ts."

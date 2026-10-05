@@ -12,6 +12,8 @@ This repository holds a fictional government service, a vehicle tax rate enquiry
 
 `prompts/` holds the work items.
 
+`docs/` holds guides for the people who run the demo.
+
 ## Always
 
 Keep changes to what the work item asks for.
@@ -20,4 +22,4 @@ Treat the legacy code's behaviour as correct, including behaviour that looks odd
 
 ## Never Change
 
-Anything in `legacy/`, `test/`, `prompts/` or `tools/`, or `check.sh` or this file, unless the work item explicitly says so.
+Anything in `legacy/`, `test/`, `prompts/`, `tools/` or `docs/`, or `check.sh` or this file, unless the work item explicitly says so.

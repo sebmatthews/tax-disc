@@ -26,7 +26,7 @@ console.log("");
 // The old system must still give its recorded answers, or the check means nothing.
 const legacyDrift = expected.filter((e, i) => legacy[i] !== e).length + Math.max(0, legacy.length - expected.length);
 if (legacyDrift > 0) {
-  console.log(`The old system no longer gives its recorded answers (${legacyDrift} differ).`);
+  console.log(`The old system no longer gives its recorded answers (${legacyDrift} ${legacyDrift === 1 ? "differs" : "differ"}).`);
   console.log("The old system or the test vehicles have been changed. Stop and investigate.");
   process.exit(2);
 }
@@ -40,15 +40,17 @@ const diffs = [];
 for (let i = 0; i < expected.length; i++) {
   if (modern[i] !== expected[i]) diffs.push(i);
 }
-if (modern.length > expected.length) diffs.push(expected.length);
+const extra = Math.max(0, modern.length - expected.length);
 
-if (diffs.length === 0) {
+if (diffs.length === 0 && extra === 0) {
   console.log(`MATCH. All ${expected.length} vehicles get the same answer from the old and new systems.`);
   console.log("");
   process.exit(0);
 }
 
-console.log(`NO MATCH. ${expected.length - diffs.length} of ${expected.length} vehicles get the same answer; ${diffs.length} ${diffs.length === 1 ? "does" : "do"} not.`);
+if (diffs.length === 0) console.log(`NO MATCH. All ${expected.length} vehicles get the same answer, but the new system wrote extra answers.`);
+else console.log(`NO MATCH. ${expected.length - diffs.length} of ${expected.length} vehicles get the same answer; ${diffs.length} ${diffs.length === 1 ? "does" : "do"} not.`);
+if (extra > 0) console.log(`The new system also wrote ${extra} more ${extra === 1 ? "answer" : "answers"} than there are test vehicles.`);
 console.log("");
 for (const i of diffs.slice(0, 10)) {
   console.log(`  Vehicle ${i + 1}: ${vehicles[i] ?? "(none)"}`);

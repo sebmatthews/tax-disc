@@ -6,7 +6,7 @@ The service is fictional: a vehicle tax rate enquiry, badged only as 'UK Governm
 
 ## Status
 
-Under construction. The legacy system, the test vehicles, the matching check and the work item for the coding agent exist; the demo command and presenter guide do not yet. `spike/` holds the first green screen test and is no longer used.
+Under construction. The legacy system, the test vehicles, the matching check and the work item for the coding agent exist; the demo command and the demo guide do not yet.
 
 ## What Is Here
 
@@ -16,8 +16,12 @@ Under construction. The legacy system, the test vehicles, the matching check and
 | `test/vehicles.dat` | 300 test vehicles. |
 | `test/expected.dat` | The legacy system's recorded answers for them. |
 | `check.sh` | The matching check: rates every test vehicle through the old and new systems and reports whether every answer matches. |
+| `tools/compare.mjs` | Compares the two systems' answers; used by `check.sh`. |
 | `prompts/modernise.md` | The work item for the coding agent, written as a user story. |
 | `AGENTS.md` | Standing notes for any coding agent. |
+| `docs/install-guide.md` | Setting up a presenter's Mac. |
+| `docs/matching-check.md` | How the matching check works, and what it does not cover. |
+| `docs/admin-guide.md` | The demo owner's occasional steps: branches, the backup, changing the test vehicles. |
 
 The modern version is built live in the demo, into `modern/`. A finished version, for use if a live run fails, is kept on the `backup/modern` branch.
 

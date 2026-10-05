@@ -22,9 +22,9 @@ The organisation wants the same service on the web, built in TypeScript on Node,
 
 ## Constraints
 
-Everything new goes in `modern/`. Do not change anything in `legacy/`, `test/`, `prompts/`, `check.sh` or `AGENTS.md`.
+Everything new goes in `modern/`. Do not change anything in `legacy/`, `test/`, `prompts/`, `tools/`, `docs/`, `check.sh` or `AGENTS.md`.
 
-Node runs the TypeScript directly, with no build step. Use only Node's built-in modules: no npm packages, no `package.json` dependencies, nothing to install. Write imports with their `.ts` extensions, and avoid TypeScript features Node cannot run directly: enums, namespaces with code, parameter properties and decorators.
+Node runs the TypeScript directly, with no build step. Use only Node's built-in modules: no npm packages, no `package.json` dependencies, nothing to install. Write imports with their `.ts` extensions, import types with `import type`, and avoid TypeScript features Node cannot run directly: enums, namespaces with code, parameter properties, import aliases and decorators.
 
 ## Done Means
 
