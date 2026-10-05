@@ -1,8 +1,13 @@
 # Compiled COBOL
 spike/vedenq
+legacy/vedenq
+legacy/vedbatch
 *.o
 *.so
 *.dylib
+
+# Run output
+test/*-run.dat
 
 # Node
 node_modules/
