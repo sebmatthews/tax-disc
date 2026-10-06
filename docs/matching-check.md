@@ -1,6 +1,6 @@
 # The Matching Check
 
-Status: draft, 5 October 2026. Explains how the demo proves the new system gives the same answers as the old one.
+Status: draft, 6 October 2026. Explains how the demo proves the new system gives the same answers as the old one.
 
 ## What It Is
 
@@ -24,7 +24,7 @@ Any difference, however small, is a failure.
 
 ## What It Proved In Testing
 
-Two classic translation mistakes were planted in a copy of the new system on 5 October 2026 to prove the check catches them. Both were caught, and the check named the vehicles concerned. What the mistakes were is kept in the demo's working folder, not here, so as not to steer the agent.
+Two classic translation mistakes were planted in a copy of the new system on 5 October 2026 to prove the check catches them. Both were caught, and the check named the vehicles concerned. What the mistakes were is not recorded here, so as not to steer the agent.
 
 ## What It Does Not Cover
 
@@ -36,6 +36,6 @@ It proves agreement on these 300 vehicles, not on every possible vehicle. A diff
 
 From the repository folder, once `modern/` exists:
 
-    sh check.sh
+    ./demo.sh verify
 
-It rebuilds the old system first, every time, so it always checks the COBOL as it is now.
+which runs `sh check.sh`. It rebuilds the old system first, every time, so it always checks the COBOL as it is now.
