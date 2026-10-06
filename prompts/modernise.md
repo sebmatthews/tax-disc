@@ -18,7 +18,19 @@ The organisation wants the same service on the web, built in TypeScript on Node,
 
 4. A web page. `node modern/server.ts` serves the enquiry at http://localhost:3000. The page asks for the same eight things as the green screen, in the same order, and after the user presses 'Calculate' it shows the annual rate in pounds, the rule applied with its description, and any error message, as the green screen does. What a user types is read the same way the green screen reads it.
 
-5. A modern government look, unbranded. The page looks like a modern UK government service: plain, accessible, clear labels, one question area, a clear result. It is headed 'UK Government Demo Service' and carries a banner reading 'This is a demonstration service. It is not a real government service and the rates are invented.' It must not use the crown, the GOV.UK logo or the GDS Transport typeface. Write the styling by hand.
+5. A modern government look, unbranded. The page must look like a modern UK government service, because the people who use it expect that. The service owner has fixed the design:
+
+   - Text in Arial (falling back to Helvetica, then any sans serif), 19px body text, near-black text (#0b0c0c) on white. Content in a single centred column no wider than 960px, which works at phone width too.
+   - A header bar across the full width: near-black (#0b0c0c), with a 10px blue (#1d70b8) strip along its bottom edge, and 'UK Government Demo Service' in bold white text.
+   - Directly under the header, a phase banner across the full width: white, with a thin grey line beneath it, holding a small blue (#1d70b8) tag reading 'DEMO' in white capitals, followed by 'This is a demonstration service. It is not a real government service and the rates are invented.'
+   - The page heading 'Check your vehicle tax rate', large and bold, then a short introductory sentence in larger text.
+   - To the right of the main column on wide screens (below it on narrow ones), a side panel headed 'About this service', topped with a blue line, saying that the service replaces the rate enquiry previously available only to contact centre staff.
+   - The eight questions as a single form, one under another, each with a bold label and, where useful, a grey hint beneath. Text boxes have 2px near-black borders and are sized to the length of answer expected. Fuel type is a set of radio buttons (Petrol, Diesel, Electric) and first licence is a pair (Yes, No). A green (#00703c) 'Calculate' button at the end.
+   - After 'Calculate', the answer appears above the form, so it is the first thing seen: a green (#00703c) panel with white text, the annual rate in very large bold figures with a pound sign, and beneath it the description of the rule applied with its rule code. An error appears in the same place instead: a box with a thick red (#d4351c) border, headed 'There is a problem', with the message in red. The form keeps what was entered, with numbers shown in full, as the green screen shows them.
+   - A light grey (#f3f2f1) footer reading 'UK Government Demo Service. Fictional, for demonstration only.'
+   - Keyboard focus shown with a yellow (#ffdd00) outline.
+
+   It must not use the crown, the GOV.UK logo or the GDS Transport typeface. Write the styling by hand.
 
 ## Constraints
 
