@@ -1,5 +1,4 @@
 # Compiled COBOL
-spike/vedenq
 legacy/vedenq
 legacy/vedbatch
 *.o
@@ -12,10 +11,6 @@ test/*-run.dat
 # Node
 node_modules/
 dist/
-
-# Local only, never committed
-.github-token
-CLAUDE.md
 
 # macOS
 .DS_Store

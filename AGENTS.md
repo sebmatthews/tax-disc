@@ -8,7 +8,7 @@ This repository holds a fictional government service, a vehicle tax rate enquiry
 
 `test/vehicles.dat` holds the test vehicles and `test/expected.dat` the legacy system's recorded answers for them.
 
-`check.sh` compares the legacy system's answers with the new system's.
+`check.sh` compares the legacy system's answers with the new system's. `demo.sh` is the demo command presenters use.
 
 `prompts/` holds the work items.
 
@@ -22,4 +22,4 @@ Treat the legacy code's behaviour as correct, including behaviour that looks odd
 
 ## Never Change
 
-Anything in `legacy/`, `test/`, `prompts/`, `tools/` or `docs/`, or `check.sh` or this file, unless the work item explicitly says so.
+Anything in `legacy/`, `test/`, `prompts/`, `tools/` or `docs/`, or `check.sh`, `demo.sh` or this file, unless the work item explicitly says so.
