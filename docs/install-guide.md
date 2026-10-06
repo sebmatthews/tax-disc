@@ -1,6 +1,6 @@
 # Install Guide
 
-Status: draft, 6 October 2026. Written for presenters setting up a Mac to run the Tax Disc demo. In the demo, an AI coding agent rewrites an old green screen system as a modern web page, and a check proves the two give the same answers. Facts about outside products are labelled confirmed (with where and when they were checked), or unconfirmed.
+Version 1.0, 6 October 2026. Written for presenters setting up a Mac to run the Tax Disc demo. In the demo, an AI coding agent rewrites an old green screen system as a modern web page, and a check proves the two give the same answers. Facts about outside products are labelled confirmed (with where and when they were checked), or unconfirmed.
 
 ## What You Need
 

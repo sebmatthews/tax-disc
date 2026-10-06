@@ -1,6 +1,6 @@
 # Admin Guide
 
-Status: draft, 6 October 2026. For the demo's owner: the occasional steps behind the demo, which presenters never do. Presenters follow the install guide and the demo guide. Setting up an independent copy of the demo is in the handoff guide.
+Version 1.0, 6 October 2026. For the demo's owner: the occasional steps behind the demo, which presenters never do. Presenters follow the install guide and the demo guide. Setting up an independent copy of the demo is in the handoff guide.
 
 ## What Lives Where
 

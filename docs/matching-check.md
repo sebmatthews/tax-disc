@@ -1,6 +1,6 @@
 # The Matching Check
 
-Status: draft, 6 October 2026. Explains how the demo proves the new system gives the same answers as the old one.
+Version 1.0, 6 October 2026. Explains how the demo proves the new system gives the same answers as the old one.
 
 ## What It Is
 

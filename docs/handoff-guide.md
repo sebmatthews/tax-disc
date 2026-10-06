@@ -1,5 +1,7 @@
 # Tax Disc Handoff Guide
 
+Version 1.0, 6 October 2026.
+
 This guide sets up a complete, independent copy of the Tax Disc demo under your own GitHub account, and then runs it. The demo comes to you as two zip files: the repository, and a finished modern version used as a fallback. Your copy starts from them, with a history of its own, and nothing in it depends on, or connects to, anywhere else. Follow Parts 1 to 8 in order. Each ends with a check, so you know it worked before you move on.
 
 ## Licence
