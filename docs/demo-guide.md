@@ -1,6 +1,6 @@
 # Demo Guide
 
-Status: draft, 6 October 2026. The script for presenters: what to show and say, in order, and what to do if something goes wrong. Set up the Mac first with the install guide.
+Version 1.0, 6 October 2026. The script for presenters: what to show and say, in order, and what to do if something goes wrong. Set up the Mac first with the install guide.
 
 ## The Story In One Breath
 
